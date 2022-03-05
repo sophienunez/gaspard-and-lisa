@@ -1,2 +1,2 @@
 # sophie
-no me sirve el git entonces subo mis trabajos acá
+no m sirve el git entonces subo mis trabajos acá :(
