@@ -1,0 +1,143 @@
+* {
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+}
+.container {
+	display: flex;
+}
+
+.content {
+	margin: auto;
+	width: 32%;
+	display: flex;
+	padding: 20px 0;
+	align-items: center;
+	flex-direction: column;
+	border-radius: 40px;
+	box-shadow: 0 1px 10px 0 rgba(0, 20, 20, 0.5);
+}
+
+.logo {
+	position: relative;
+}
+
+.logo .icon {
+	object-fit: contain;
+	width: 150px;
+	height: 60px;
+}
+
+.container .card {
+	position: relative;
+	height: 450px;
+}
+
+.content .card .user {
+	width: 380px;
+	height: 450px;
+	object-fit: cover;
+	border-radius: 10px;
+}
+
+.content .card .user .profile {
+	position: absolute;
+	bottom: 0px;
+	left: 20px;
+}
+
+.content .card .user .name {
+	color: #fff;
+	font-size: 32px;
+	font-weight: 700;
+	letter-spacing: 0.5px;
+	text-shadow: 1px 1px 5px #444;
+}
+
+.content .card .user .name span {
+	font-size: 26px;
+}
+
+.content .card .local {
+	display: flex;
+	align-items: center;
+	padding: 0 0 20px 0;
+	color: #fff;
+	padding: 0 10px;
+	text-shadow: 1px 1px 5px #444;
+}
+
+.content .card .city {
+	display: flex;
+	align-items: center;
+	padding: 0 0 20px 0;
+}
+
+.content .card .city span {
+	color: #fff;
+	padding: 0 10px;
+	text-shadow: 1px 1px 5px #444;
+}
+
+.content .buttons {
+	margin-top: 10px;
+	display: flex;
+	align-items: center;
+}
+
+.content .buttons .like {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: center;
+	font-size: 20px;
+	color: #11e298;
+}
+
+.content .buttons .dislike {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: center;
+	font-size: 20px;
+	color: #fd2e79;
+}
+
+.content .buttons .no {
+	color: #fd2e79;
+	font-size: 50px;
+}
+
+.content .buttons .star {
+	color: #2bb1ff;
+	font-size: 60px;
+}
+
+.content .buttons .heart {
+	color: #11e298;
+	font-size: 45px;
+}
+
+.content .buttons .no,
+.content .buttons .star,
+.content .buttons .heart {
+	background-color: #fff;
+	width: 70px;
+	height: 70px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 0.2s transform;
+	border: none;
+}
+
+.content .buttons .no:hover,
+.content .buttons .star:hover,
+.content .buttons .heart:hover {
+	transform: scale(1.1);
+}
+
+.content .buttons .star {
+	width: 60px;
+	height: 60px;
+}
