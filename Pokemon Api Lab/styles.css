@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(img/bg.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.buttons {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    border-radius: 5px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.charmander-btn {
+    background-color: #ff87cf;
+    color: white;
+}
+
+.bulbasaur-btn {
+    background-color: #99cc99;
+    color: white;
+}
+
+.squirtle-btn {
+    background-color: #99ccff;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.273);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+.pokemon-card {
+    text-align: center;
+}
+
+.pokemon-card img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.cute-box {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.273);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.button-container {
+    margin-top: 10px;
+}
+
+.cute-btn {
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: #f7d6e0;
+    color: #ff87cf;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.evolve-btn {
+    background-color: #ffb366;
+    color: white;
+}
+
+.devolve-btn {
+    background-color: #85a3e0;
+    color: white;
+}
+
+.evolve-btn:hover, .devolve-btn:hover {
+    background-color: #ff8c00;
+}
+
+.cute-btn:hover {
+    background-color: #ff87cf;
+    color: white;
+}
+
+#pokemon-type, #pokemon-ability {
+    margin: 10px 0;
+    font-size: 14px;
+    color: #666;
+}
